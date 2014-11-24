@@ -1,0 +1,22 @@
+{
+    "name": "yacs",
+    "description": "Yet Another Commenting System created as an example of a Framework From Scratch",
+    "keywords": ["yacs", "framework from scratch"],
+    "type": "framework",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Domenico Lino",
+            "email": "virgilio@mail.de
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+   "autoload": {
+        "psr-0": {
+            "yacs\\yacs": "src/",
+            "yacs\\myapp": "src/"
+        }
+    }
+}
